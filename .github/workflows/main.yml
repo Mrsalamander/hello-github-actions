@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+git fetch origin
+git checkout -b first-action origin/first-action
+git merge main
